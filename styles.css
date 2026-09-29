@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: #fff5e9;
+    font-family: "Heebo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    padding: 25px 0;
+    max-width: 1500px;
+
+    width: 80%;
+    /* background-color: red; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+}
+
+.header-cta-btn button{
+    width: 250px;
+    height: 70px;
+    
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+}
+
+.header-cta-btn button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* ######### main section ########### */
+
+main{
+    max-width: 1500px;
+    width: 80%;
+
+    /* padding: 90px 0; */
+    /* background-color: green; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .main-text{
+    /* height: 30%; */
+
+    padding: 20px;
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+main .main-text h2{
+    font-size: 50px;
+}
+
+main .main-text p{
+    font-size: 19px;
+
+    margin: 20px 0 40px;
+}
+
+main .main-images{
+    width: 100%;
+    /* background-color: blue; */
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+
+    /* justify-content: space-between;
+    align-items: center; */
+    gap: 20px;
+}
+
+.main-images .card1, .card2, .card3, .card4, .card5, .card6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+    border-radius: 15px;
+}
+
+.main-images .card1{
+    /* height: 354px; */
+    /* width: 32%; */
+    background-color: #8a00e2
+;
+    grid-row: span 2;
+    padding: 20px;
+}
+
+.main-images .card1-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.card1-content .card1-image{
+    display: flex;
+    justify-content: right;
+
+}
+
+.main-images .card2{
+    /* width: 32%; */
+    /* height: 354px; */
+    background-color: #fba556;
+    padding: 20px;
+}
+
+.main-images .card2-content{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.card2-content .card2-image{
+    display: flex;
+    justify-content: right;
+}
+
+.main-images .card3{
+
+    padding: 20px;
+    background-color: #fc939c;
+}
+
+.main-images .card3-content{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.card3-content .card3-image{
+    display: flex;
+    justify-content: right;
+}
+
+.main-images .card4{
+    padding: 20px;
+    background-color: #41cbb7;
+}
+
+.card4-content{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.card4-content .card4-image{
+    display: flex;
+    justify-content: right;
+}
+
+.main-images .card5{
+    padding: 20px;
+    background-color: #f4675f;
+
+    grid-column: span 2;
+}
+
+.card5-content{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.card5-content .card5-image{
+    display: flex;
+    justify-content: right;
+}
+
+.main-images .card6{
+    padding: 20px;
+    background-color: #5c004b;
+}
+
+.card6-content{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.card6-content .card6-image{
+    display: flex;
+    justify-content: right;
+}
+
+.main-images p{
+    font-size: 30px; 
+    color: white;
+}
+
+
+/* ############ about Section ############ */
+.about{
+    display: flex;
+    align-items: center;
+
+    padding: 100px 0;
+}
+
+.about .about-image{
+    margin-right: 80px;
+}
+
+.about .about-image img{
+    width: 100%;
+    /* height: 100%; */
+
+    border-radius: 50%;
+}
+
+.about .about-image, .about-text{
+    width: 50%;
+}
+
+
+.about-text h2{
+    font-size: 40px;
+    line-height: 1;
+}
+
+.about-text p{
+    font-size: 18px;
+    line-height: 1.5;
+
+    padding: 35px 10px 35px;
+}
+
+.about button{
+    width: 270px;
+    height: 50px;
+    
+    background-color: red;
+    border: none;
+    border-radius: 50px;
+}
+
+.about button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* ######## Work section styling */
+
+.work{
+    width: 100%;
+    /* background-color: red; */
+
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.work .work-text{
+    text-align: center;
+    width: 100%;
+    padding: 0 0 20px 0 ;
+
+    /* background-color: blue; */
+}
+
+.work .work-images{
+    width: 100%;
+
+    /* background-color: orange; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.work .work-images img{
+    height: 354px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.work .work-slide-btn{
+    width: 100%;
+
+    height: 100px;
+    /* background-color: aqua; */
+}
+
+.booking{
+    width: 100%;
+    /* background-color: #41cbb7; */
+    padding: 70px 20px 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.booking-content{
+    width: 80%;
+    /* height: 50%; */
+
+    padding: 50px;
+    background-color: black;
+
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.booking .booking-text{
+    /* width: 70%; */
+    color: white;
+}
+
+.booking .booking-text h1{
+    font-size: 3rem;
+    padding: 20px 0;
+}
+
+.booking .booking-text p{
+    font-size: 20px;
+}
+
+.booking .booking-btn button{
+    width: 250px;
+    padding: 20px;
+    
+    background-color: red;
+    border: none;
+    border-radius: 50px;
+}
+
+.booking .booking-btn button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* ######### footer ############ */
+
+footer{
+    padding: 30px 0;
+    max-width: 1500px;
+
+    width: 80%;
+    /* background-color: red; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+}
+
+.footer-cta-btn button{
+    width: 250px;
+    height: 70px;
+    
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+}
+
+.footer-cta-btn button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+@media(max-width: 1052px){
+    main .main-images{
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        gap: 20px;
+    }
+
+    .main-images .card4, .card6{
+        grid-column: span 2;
+    }
+
+    .main-images .card5{
+        grid-column: span 1;
+    }
+
+    .main-images .card1, .card2, .card3, .card4, .card5, .card6{
+        gap: 40px;  
+    }
+
+    header, main, footer{
+        max-width: 1500px;
+        width: 95%;
+    }
+
+    .booking-content{
+        flex-direction: column;
+        text-align: center;
+
+        padding: 10px;
+        gap: 40px;
+    }
+
+}
+
+@media(max-width: 713px){
+    main .main-text h2{
+        font-size: 4.5rem;
+        line-height: 1.2;
+    }
+
+    main .main-text p{
+        font-size: 2.5rem;
+    }
+
+    main .main-images{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .main-images .card1{
+        grid-column: span 2;
+    }
+
+    .main-images .card5{
+        grid-column: span 2;
+    }
+
+    .main-images .card1, .card2, .card3, .card4, .card5, .card6{
+        gap: 60px;  
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about .about-image, .about-text{
+        width: 95%;
+        text-align: center;
+    }
+
+    .about .about-image{
+        margin-right: 0;
+        padding: 0 0 50px;
+    }
+
+    .booking-content{
+        flex-direction: column;
+        text-align: center;
+
+        padding: 10px;
+        gap: 40px;
+    }
+
+}
+
+@media(max-width: 619px){
+    main .main-text h2{
+        font-size: 3rem;
+    }
+
+    main .main-text p{
+        font-size: 1.8rem;
+    }
+
+    .booking .booking-text h1{
+        font-size: 2rem;
+        padding: 20px 0;
+    }
+
+    .booking .booking-text p{
+        font-size: 1rem;
+    }
+}

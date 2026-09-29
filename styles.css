@@ -357,8 +357,8 @@ main .main-images{
 }
 
 .booking .booking-btn button{
-    width: 250px;
-    padding: 20px;
+    width: 240px;
+    padding: 15px;
     
     background-color: red;
     border: none;
@@ -494,20 +494,20 @@ footer .logo{
 }
 
 @media(max-width: 619px){
-    main .main-text h2{
-        font-size: 3rem;
+    main .main-text h2, .about-text h2{
+        font-size: 2.3rem;
     }
 
     main .main-text p{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .booking .booking-text h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 20px 0;
     }
 
     .booking .booking-text p{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }

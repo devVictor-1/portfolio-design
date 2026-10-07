@@ -34,6 +34,18 @@ header .logo{
     width: 70px;
     height: 70px;
     background-color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo-circle{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border: 3px solid #fff5e9;
+    border-radius: 50%;
 }
 
 .header-cta-btn button{
@@ -400,6 +412,18 @@ footer .logo{
     width: 70px;
     height: 70px;
     background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo-circle{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border: 3px solid #fff5e9;
+    border-radius: 50%;
 }
 
 .footer-cta-btn button{
